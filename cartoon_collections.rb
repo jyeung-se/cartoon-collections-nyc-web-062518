@@ -24,6 +24,7 @@ def find_the_cheese(array)
       item
     else
       nil
+    end
   end
 end
 
