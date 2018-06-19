@@ -22,7 +22,8 @@ def find_the_cheese(array)
   array.each do |item|
     if array.include?(item) == true
       i = 0
-      array.find(item[i+1])
+      array.find(item[i])
+      i += 1
     else
       nil
     end
